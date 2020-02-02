@@ -6,12 +6,14 @@ const ImageSearch = (props) => {
          
         <div>   
 
+            <h1 className="header">Find a free photo!</h1>
+
         <form onSubmit={props.handleGetRequest}>  
         
-               <input type="text" autocomplete="off" name="searchValue" placeholder="search for images"/>
+               <input type="text" autoComplete="off" name="searchValue" placeholder="search for images" />
 
-               ]<button>Search</button>
-               
+               <button>Search</button>
+
             </form>
         </div>
     )
